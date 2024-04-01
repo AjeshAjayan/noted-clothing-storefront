@@ -2,6 +2,7 @@ const { withStoreConfig } = require("./store-config")
 const store = require("./store.config.json")
 
 module.exports = withStoreConfig({
+  output: 'export',
   experimental: {
     serverComponentsExternalPackages: [
       "@medusajs/product",
